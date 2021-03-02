@@ -7,26 +7,26 @@
     <script>
 
         function loaded(){
+
             let t = document.getElementById('titulo')
 
-            //  t.onclick = mudarText;
+            // t.onclick = mudarText;
 
             t.addEventListener('mouseover', mudarText)
             t.addEventListener('mouseout', mouseout)
         }
 
         function mudarText(){
-            this.innerHTML = 'Novo texto'
+            this.innerHTML = 'Novo Texto'
         }
 
         function mouseout(){
-            this.innerHTML = 'teste'
+            this.innerHTML = 'Mouse fora do elemento'
         }
 
-       
     </script>
 </head>
 <body onload="loaded()">
-    <h1 id="titulo">teste</h1>
+    <h1 id="titulo">Teste</h1>
 </body>
 </html>
